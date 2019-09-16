@@ -1,0 +1,16 @@
+{
+    "/js/main-album.js": "/js/main-album.js",
+    "/js/main-albums.js": "/js/main-albums.js",
+    "/js/main-app.js": "/js/main-app.js",
+    "/css/app.css": "/css/app.css",
+    "/css/news.css": "/css/news.css",
+    "/css/contact.css": "/css/contact.css",
+    "/css/artists.css": "/css/artists.css",
+    "/css/artist.css": "/css/artist.css",
+    "/css/albums.css": "/css/albums.css",
+    "/css/album.css": "/css/album.css",
+    "/js/main-artist.js": "/js/main-artist.js",
+    "/js/main-artists.js": "/js/main-artists.js",
+    "/js/main-contact.js": "/js/main-contact.js",
+    "/js/main-news.js": "/js/main-news.js"
+}

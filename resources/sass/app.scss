@@ -1,0 +1,23 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// Styles
+@import '../styles/bootstrap-4.1.2/scss/bootstrap';
+
+@import '../plugins/font-awesome-4.7.0/css/font-awesome.min';
+
+@import '../plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel';
+
+@import '../plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default';
+
+@import '../plugins/OwlCarousel2-2.3.4/dist/assets/animate';
+
+@import '../styles/main_styles';
+
+@import '../styles/responsive';

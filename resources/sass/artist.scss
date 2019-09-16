@@ -1,0 +1,34 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+// Styles
+@import '../styles/bootstrap-4.1.2/scss/bootstrap';
+
+@import '../plugins/font-awesome-4.7.0/css/font-awesome.min';
+
+@import '../plugins/video-js/video-js';
+
+@import '../styles/artist';
+
+@import '../styles/artist_responsive';
+
+.jp-seek-bar{
+   width: 100% !important;
+}
+
+.artist_link a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2ac275;
+    text-transform: uppercase;
+}
+
+.search_input {
+    width: calc( (100% - 228px) ) !important;
+}
