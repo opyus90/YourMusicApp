@@ -105,6 +105,10 @@
 			<div class="row">
 				<div class="col">
 					<div class="blog_posts">
+					
+                    @php ($count = 0)
+                    @foreach ( $titles as $title )
+					    @php ($count++)
 						
 						<!-- Blog Post -->
 						<div class="blog_post">
@@ -112,187 +116,43 @@
 								
 								<!-- Blog Post Image -->
 								<div class="col-lg-7">
-									<div class="blog_post_image"><img src="images/blog_1.jpg" alt=""></div>
+									<div class="blog_post_image"><img src="{{ $images[$count-1] }}" alt="" height="auto" width="619"></div>
 								</div>
 
 								<!-- Blog Post Content -->
 								<div class="col-lg-5 blog_col">
 									<div class="blog_post_content">
-										<div class="blog_post_date"><a href="#">Oct 19, 2018</a></div>
-										<div class="blog_post_title"><a href="#">Festival list for 2019</a></div>
+										<div class="blog_post_date"><p>{{ $dates[$count-1] }}</p></div>
+										<div class="blog_post_title"><a href="https://www.billboard.com{{ $urls[$count-1] }}">{{ $titles[$count-1] }}</a></div>
 										<div class="blog_post_info">
 											<ul class="d-flex flex-row align-items-start justify-content-start">
-												<li>By <a href="#">Admin</a></li>
+												<li>{{ $authors[$count-1] }}</li>
 												<li>
 													<ul class="d-flex flex-row align-items-start justify-content-start">
-														<li><a href="#">music</a></li>
-														<li><a href="#">show</a></li>
-														<li><a href="#">festival</a></li>
+														<li>{{ $categories[$count-1] }}</li>
 													</ul>
 												</li>
 											</ul>
 										</div>
 										<div class="blog_post_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, neque ac porttitor scelerisquenisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+											<p>{{ $descriptions[$count-1] }}</p>
 										</div>
-										<div class="blog_post_link"><a href="#">read more</a></div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-						<!-- Blog Post -->
-						<div class="blog_post">
-							<div class="row">
-								
-								<!-- Blog Post Image -->
-								<div class="col-lg-7">
-									<div class="blog_post_image"><img src="images/blog_2.jpg" alt=""></div>
-								</div>
-
-								<!-- Blog Post Content -->
-								<div class="col-lg-5 blog_col">
-									<div class="blog_post_content">
-										<div class="blog_post_date"><a href="#">Oct 19, 2018</a></div>
-										<div class="blog_post_title"><a href="#">Music Seminary at Festival</a></div>
-										<div class="blog_post_info">
-											<ul class="d-flex flex-row align-items-start justify-content-start">
-												<li>By <a href="#">Admin</a></li>
-												<li>
-													<ul class="d-flex flex-row align-items-start justify-content-start">
-														<li><a href="#">music</a></li>
-														<li><a href="#">show</a></li>
-														<li><a href="#">festival</a></li>
-													</ul>
-												</li>
-											</ul>
-										</div>
-										<div class="blog_post_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, neque ac porttitor scelerisquenisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
-										</div>
-										<div class="blog_post_link"><a href="#">read more</a></div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-						<!-- Blog Post -->
-						<div class="blog_post">
-							<div class="row">
-								
-								<!-- Blog Post Image -->
-								<div class="col-lg-7">
-									<div class="blog_post_image"><img src="images/blog_3.jpg" alt=""></div>
-								</div>
-
-								<!-- Blog Post Content -->
-								<div class="col-lg-5 blog_col">
-									<div class="blog_post_content">
-										<div class="blog_post_date"><a href="#">Oct 19, 2018</a></div>
-										<div class="blog_post_title"><a href="#">New album release in 2019</a></div>
-										<div class="blog_post_info">
-											<ul class="d-flex flex-row align-items-start justify-content-start">
-												<li>By <a href="#">Admin</a></li>
-												<li>
-													<ul class="d-flex flex-row align-items-start justify-content-start">
-														<li><a href="#">music</a></li>
-														<li><a href="#">show</a></li>
-														<li><a href="#">festival</a></li>
-													</ul>
-												</li>
-											</ul>
-										</div>
-										<div class="blog_post_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, neque ac porttitor scelerisquenisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
-										</div>
-										<div class="blog_post_link"><a href="#">read more</a></div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-						<!-- Blog Post -->
-						<div class="blog_post">
-							<div class="row">
-								
-								<!-- Blog Post Image -->
-								<div class="col-lg-7">
-									<div class="blog_post_image"><img src="images/blog_4.jpg" alt=""></div>
-								</div>
-
-								<!-- Blog Post Content -->
-								<div class="col-lg-5 blog_col">
-									<div class="blog_post_content">
-										<div class="blog_post_date"><a href="#">Oct 19, 2018</a></div>
-										<div class="blog_post_title"><a href="#">Music Seminary at Festival</a></div>
-										<div class="blog_post_info">
-											<ul class="d-flex flex-row align-items-start justify-content-start">
-												<li>By <a href="#">Admin</a></li>
-												<li>
-													<ul class="d-flex flex-row align-items-start justify-content-start">
-														<li><a href="#">music</a></li>
-														<li><a href="#">show</a></li>
-														<li><a href="#">festival</a></li>
-													</ul>
-												</li>
-											</ul>
-										</div>
-										<div class="blog_post_text">
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, neque ac porttitor scelerisquenisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
-										</div>
-										<div class="blog_post_link"><a href="#">read more</a></div>
+										<div class="blog_post_link"><a href="https://www.billboard.com{{ $urls[$count-1] }}">read more</a></div>
 									</div>
 								</div>
 
 							</div>
 						</div>
 						
-						<!-- Page Nav 
-						<div class="page_nav">
-							<ul class="d-flex flex-row align-items-start justify-content-start">
-								<li class="active"><a href="#">01.</a></li>
-								<li><a href="#">02.</a></li>
-								<li><a href="#">03.</a></li>
-								<li><a href="#">04.</a></li>
-							</ul>
-						</div>-->
+                    @endforeach
+					
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Featured News -->
-
-	<div class="featured_news container_reset">
-		<div class="container">
-			<div class="row">
-				
-				<!-- Featured News Image -->
-				<div class="col-xl-5">
-					<div class="featured_news_image">
-						<div class="background_image" style="background-image:url(images/featured_news.jpg)"></div>
-					</div>
-				</div>
-
-				<!-- Featured News Content -->
-				<div class="col-xl-7">
-					<div class="featured_news_content">
-						<div class="featured_news_title">Featured News</div>
-						<div class="blog_post_date"><a href="#">Oct 19, 2018</a></div>
-						<div class="featured_blog_post_title"><a href="#">Music Seminary at Festival</a></div>
-						<div class="featured_blog_post_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget lorem luctus ligula volutpat fermentum. Nulla auctor odio sit amet dui lobortis aliquet. Donec leo eros, faucibus vitae finibus a, tincidunt vehicula eros. Morbi aliquet sem euismod venenatis elementum. Proin laoreet sapien sit amet posuere sollicitudin. Mauris quis faucibus velit.</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
 
 	<!-- Newsletter -->
 
@@ -313,10 +173,11 @@
 				<!-- Newsletter Form -->
 				<div class="col-xl-6 nl_col">
 					<div class="newsletter_form_container d-flex flex-column align-items-start justify-content-end">
-						<form action="#" class="newsletter_form" id="newsletter_form">
+						<form action="{{ route('subscribe') }}" class="newsletter_form" id="newsletter_form" method="post">
+						    @csrf <!-- {{ csrf_field() }} -->
 							<div class="d-flex flex-row align-items-start justify-content-between">
-								<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-								<button class="button newsletter_button"><span>subscribe</span></button>
+								<input type="email" class="newsletter_input" placeholder="Your E-mail" name="email" required="required">
+								<button class="button newsletter_button" type="submit" value="Submit"><span>subscribe</span></button>
 							</div>
 						</form>
 					</div>
@@ -363,7 +224,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by Aureliu Mocanu
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					</div>
 				</div>

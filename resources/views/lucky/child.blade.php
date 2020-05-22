@@ -8,7 +8,7 @@
 {{ __('messages.welcome') }}
 @section('sidebar')
     @parent
-    @component('alert', ['slon' => 'bar'])
+    @component('lucky.alert', ['slon' => 'bar'])
 	
     <strong>Whoops!</strong> Something went wrong!
 @endcomponent

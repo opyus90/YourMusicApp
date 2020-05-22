@@ -55,7 +55,7 @@
             </div>
 
             <div class="message" style="padding: 10px;">
-                @yield('message')
+                @yield('message') 
             </div>
         </div>
     </body>

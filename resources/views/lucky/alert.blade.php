@@ -1,4 +1,4 @@
-<!-- /resources/views/alert.blade.php -->
+<!-- /resources/views/lucky/alert.blade.php -->
 
 <div class="alert alert-danger">
     {{ $slon }}

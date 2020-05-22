@@ -237,8 +237,8 @@ jQuery(document).ready(function($) {
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
-							artist:"Bensound",
+						title:"Blinding Lights",
+							artist:"The Weeknd",
 							mp3:"files/bensound-betterdays.mp3"
 					});
 				},
@@ -278,46 +278,46 @@ jQuery(document).ready(function($) {
 			var playlist = 
 			[
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					album:"Ocean Vibes",
+					title:"Infinite",
+					artist:"Eminem",
+					album:"Infinite",
 					mp3:"files/bensound-betterdays.mp3",
-					poster:"images/featured_1.jpg"
+					poster:"images/albums/Infinite.jpg"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
-					album:"DJ Mind",
+					title:"The A Team",
+					artist:"Ed Sheeran",
+					album:"Plus",
 					mp3:"files/bensound-dubstep.mp3",
-					poster:"images/featured_2.jpg"
+					poster:"images/albums/Plus.jpg"
 				},
 				{
-					title:"Sunny",
-					artist:"Bensound",
-					album:"Dublin Dub",
+					title:"Pon the Replay",
+					artist:"Rihanna",
+					album:"Music of the Sun",
 					mp3:"files/bensound-sunny.mp3",
-					poster:"images/featured_3.jpg"
+					poster:"images/albums/Music of the Sun.jpg"
 				},
 				{
-					title:"Better Days",
-					artist:"Bensound",
-					album:"Ocean Vibes",
+					title:"Just Dance",
+					artist:"Lady Gaga",
+					album:"The Fame",
 					mp3:"files/bensound-betterdays.mp3",
-					poster:"images/featured_4.jpg"
+					poster:"images/albums/The Fame.jpg"
 				},
 				{
-					title:"Dubstep",
-					artist:"Bensound",
-					album:"DJ Mind",
+					title:"Lucky Star",
+					artist:"Madonna",
+					album:"Madonna",
 					mp3:"files/bensound-dubstep.mp3",
-					poster:"images/featured_5.jpg"
+					poster:"images/albums/Madonna.jpg"
 				},
 				{
-					title:"Sunny",
-					artist:"Bensound",
-					album:"Dublin Dub",
+					title:"Starboy",
+					artist:"The Weeknd",
+					album:"Starboy",
 					mp3:"files/bensound-sunny.mp3",
-					poster:"images/featured_6.jpg"
+					poster:"images/albums/Starboy.jpg"
 				}
 			];
 

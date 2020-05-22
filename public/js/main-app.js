@@ -49444,8 +49444,8 @@ jQuery(document).ready(function ($) {
       $("#jplayer_1").jPlayer({
         ready: function ready() {
           $(this).jPlayer("setMedia", {
-            title: "Better Days",
-            artist: "Bensound",
+            title: "Blinding Lights",
+            artist: "The Weeknd",
             mp3: "files/bensound-betterdays.mp3"
           });
         },
@@ -49482,41 +49482,41 @@ jQuery(document).ready(function ($) {
   function initAlbumPlayer() {
     if ($('#jplayer_2').length) {
       var playlist = [{
-        title: "Better Days",
-        artist: "Bensound",
-        album: "Ocean Vibes",
+        title: "Infinite",
+        artist: "Eminem",
+        album: "Infinite",
         mp3: "files/bensound-betterdays.mp3",
-        poster: "images/featured_1.jpg"
+        poster: "images/albums/Infinite.jpg"
       }, {
-        title: "Dubstep",
-        artist: "Bensound",
-        album: "DJ Mind",
+        title: "The A Team",
+        artist: "Ed Sheeran",
+        album: "Plus",
         mp3: "files/bensound-dubstep.mp3",
-        poster: "images/featured_2.jpg"
+        poster: "images/albums/Plus.jpg"
       }, {
-        title: "Sunny",
-        artist: "Bensound",
-        album: "Dublin Dub",
+        title: "Pon the Replay",
+        artist: "Rihanna",
+        album: "Music of the Sun",
         mp3: "files/bensound-sunny.mp3",
-        poster: "images/featured_3.jpg"
+        poster: "images/albums/Music of the Sun.jpg"
       }, {
-        title: "Better Days",
-        artist: "Bensound",
-        album: "Ocean Vibes",
+        title: "Just Dance",
+        artist: "Lady Gaga",
+        album: "The Fame",
         mp3: "files/bensound-betterdays.mp3",
-        poster: "images/featured_4.jpg"
+        poster: "images/albums/The Fame.jpg"
       }, {
-        title: "Dubstep",
-        artist: "Bensound",
-        album: "DJ Mind",
+        title: "Lucky Star",
+        artist: "Madonna",
+        album: "Madonna",
         mp3: "files/bensound-dubstep.mp3",
-        poster: "images/featured_5.jpg"
+        poster: "images/albums/Madonna.jpg"
       }, {
-        title: "Sunny",
-        artist: "Bensound",
-        album: "Dublin Dub",
+        title: "Starboy",
+        artist: "The Weeknd",
+        album: "Starboy",
         mp3: "files/bensound-sunny.mp3",
-        poster: "images/featured_6.jpg"
+        poster: "images/albums/Starboy.jpg"
       }];
       var options = {
         playlistOptions: {
@@ -49700,9 +49700,17 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 /***const app = new Vue({
     el: '#app',
 });*/
+//var album = JSON.parse( $(".featured").attr("data-album") );
+
+/*function getAlbums(){
+	var songs = album[0]["songs"].split(", ");
+	$(".featured_list .jp_container_2 .featured_image").replaceWith('<div class="featured_image"><img src="images/albums/'+album[0]["name"]+'.jpg" alt=""></div>');
+	//$(".artist_info_list").replaceWith('<div class="artist_info_list"><ul><li>Release: <span>'+album[0]["release"]+'</span></li></ul></div>');
+}*/
 
 $(document).ready(function () {
-  console.log("hellos");
+  console.log("hello"); //getAlbums();
+
   /***$(".search-title").on('keypress',function(ek) {
          if( (ek.which == 13) && ($('.search-title').val().length > 0) ) {
   	   var val = $('.search-title').val();
@@ -62865,14 +62873,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\js\main-app.js */"./resources/js/main-app.js");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\app.scss */"./resources/sass/app.scss");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\news.scss */"./resources/sass/news.scss");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\contact.scss */"./resources/sass/contact.scss");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\artists.scss */"./resources/sass/artists.scss");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\artist.scss */"./resources/sass/artist.scss");
-__webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\albums.scss */"./resources/sass/albums.scss");
-module.exports = __webpack_require__(/*! C:\xstart\Laravel\lara-project3\resources\sass\album.scss */"./resources/sass/album.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\js\main-app.js */"./resources/js/main-app.js");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\news.scss */"./resources/sass/news.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\contact.scss */"./resources/sass/contact.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\artists.scss */"./resources/sass/artists.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\artist.scss */"./resources/sass/artist.scss");
+__webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\albums.scss */"./resources/sass/albums.scss");
+module.exports = __webpack_require__(/*! C:\xstart\Laravel\lara-project6\resources\sass\album.scss */"./resources/sass/album.scss");
 
 
 /***/ })

@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'HomeController@getHome')->name('home');
 
 Route::get('/artists', 'Artists\ArtistsController@getArtists')->name('artists');
 
@@ -27,9 +26,8 @@ Route::get('/album_{name}', 'Albums\AlbumController@getAlbum')->name('album');
 
 Route::get('/albums_search_{str}', 'Albums\AlbumsController@searchAlbums')->name('search albums');
 
-Route::get('/news', function () {
-    return view('news.blog');
-})->name('news');
+Route::get('/news', 'News\NewsController@getNews')->name('news');
+
 
 Route::get('/signup', function () {
     return view('authentication.register');
@@ -51,8 +49,8 @@ Route::get('/contact', function () {
 
 Route::post('/contactus', 'Contact\ContactController@contactus')->name('contactus');
 
-Route::get('user/{id}', 'UserController@show');
+Route::post('/subscribe', 'Newsletters\NewslettersController@getNewsletters')->name('subscribe');
 
-Route::get('/lucky', 'LuckyController@show');
+Route::get('user/{id}', 'UserController@show');
 
 Route::get('/db', 'Artists\ArtistsController@getArtists');

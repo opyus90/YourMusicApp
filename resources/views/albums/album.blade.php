@@ -288,10 +288,11 @@
 				<!-- Newsletter Form -->
 				<div class="col-xl-6 nl_col">
 					<div class="newsletter_form_container d-flex flex-column align-items-start justify-content-end">
-						<form action="#" class="newsletter_form" id="newsletter_form">
+						<form action="{{ route('subscribe') }}" class="newsletter_form" id="newsletter_form" method="post">
+						    @csrf <!-- {{ csrf_field() }} -->
 							<div class="d-flex flex-row align-items-start justify-content-between">
-								<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-								<button class="button newsletter_button"><span>subscribe</span></button>
+								<input type="email" class="newsletter_input" placeholder="Your E-mail" name="email" required="required">
+								<button class="button newsletter_button" type="submit" value="Submit"><span>subscribe</span></button>
 							</div>
 						</form>
 					</div>
@@ -338,7 +339,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by Aureliu Mocanu
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					</div>
 				</div>

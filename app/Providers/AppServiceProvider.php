@@ -23,6 +23,8 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+	 
+	
     function boot()
     {
        Schema::defaultStringLength(191); //NEW: Increase StringLength
@@ -31,6 +33,7 @@ class AppServiceProvider extends ServiceProvider
         {
             URL::forceScheme('https'); //Use https online to solve errors
         }
-	   
+	    $this->loadViewsFrom(__DIR__.'resources/views/errors', 'errors');
     }
 }
+    

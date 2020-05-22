@@ -102,7 +102,7 @@
 										<div class="home_title_container text-center">
 											<div class="home_title islive text-center"><h1>your <span>music.</span></h1></div>
 										</div>
-										<div class="tickets_form_container">
+										<!--<div class="tickets_form_container">
 											<form action="#" class="tickets_form">
 												<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
 													<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
@@ -119,7 +119,7 @@
 													<button class="tickets_form_button button"><span>get your tickets</span></button>
 												</div>
 											</form>
-										</div>
+										</div>-->
 									</div>
 								</div>
 							</div>
@@ -138,7 +138,7 @@
 										<div class="home_title_container text-center">
 											<div class="home_title islive text-center"><h1>your <span>music.</span></h1></div>
 										</div>
-										<div class="tickets_form_container">
+										<!--<div class="tickets_form_container">
 											<form action="#" class="tickets_form">
 												<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
 													<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
@@ -155,7 +155,7 @@
 													<button class="tickets_form_button button"><span>get your tickets</span></button>
 												</div>
 											</form>
-										</div>
+										</div>-->
 									</div>
 								</div>
 							</div>
@@ -174,7 +174,7 @@
 										<div class="home_title_container text-center">
 											<div class="home_title islive text-center"><h1>your <span>music.</span></h1></div>
 										</div>
-										<div class="tickets_form_container">
+										<!--<div class="tickets_form_container">
 											<form action="#" class="tickets_form">
 												<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
 													<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
@@ -191,7 +191,7 @@
 													<button class="tickets_form_button button"><span>get your tickets</span></button>
 												</div>
 											</form>
-										</div>
+										</div>-->
 									</div>
 								</div>
 							</div>
@@ -201,8 +201,8 @@
 
 			</div>
 
-			<!-- Home Slider Navigation -->
-			<div class="home_slider_nav"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+			<!-- Home Slider Navigation 
+			<div class="home_slider_nav"><i class="fa fa-angle-right" aria-hidden="true"></i></div> -->
 
 			<!-- Home Social -->
 			<div class="home_social">
@@ -254,13 +254,13 @@
 										<!-- Player Controls -->
 										<div class="player_controls_box d-flex flex-row align-items-start justify-content-start">
 											<div class="order-lg-1 order-2">
-												<div class="player_title">song of the week</div>
+												<div class="player_title">top 100 song | Billboard</div>
 												<div class="jp-controls-holder player_controls ml-auto d-flex flex-row align-items-start justify-content-start">
 													<button class="jp-play player_button" tabindex="0"></button>
 													<button class="jp-stop player_button" tabindex="0"></button>
 												</div>
 											</div>
-											<div class="song_image ml-lg-auto order-lg-2 order-1"><img src="images/song_1.jpg" alt=""></div>
+											<div class="song_image ml-lg-auto order-lg-2 order-1"><img src="images/blinding_lights.jpg" alt=""></div>
 										</div>
 
 										<!-- Progress Bar -->
@@ -268,8 +268,8 @@
 											<div class="player_progress_box">
 												<div class="jp-current-time" role="timer" aria-label="time">00:00</div>
 												<div class="song_info">
-													<div class="jp-artist" aria-label="title">Michael Smith</div>
-													<div class="jp-title" aria-label="title"></div>
+													<div class="jp-artist" aria-label="title">The Weeknd</div>
+													<div class="jp-title" aria-label="title">Blinding Lights</div>
 												</div>
 												<div class="jp-progress">
 													<div class="jp-seek-bar">
@@ -311,83 +311,7 @@
 		</div>
 	</div>
 
-	<!-- Tours -->
 
-	<div class="tours">
-		<div class="container">
-			<div class="row row-lg-eq-height">
-				
-				<!-- Add -->
-				<div class="col-lg-4 order-lg-1 order-2 tours_col">
-					<div class="extra d-flex flex-column align-items-center justify-content-between">
-						<div class="background_image" style="background-image:url(images/extra_1.jpg)"></div>
-						<div class="extra_frame"></div>
-						<div class="extra_text">it's awesome</div>
-						<div class="extra_title_container">
-							<div class="extra_year">2019</div>
-							<div class="extra_title">world tour</div>
-							<div class="extra_subtitle">november 2018</div>
-						</div>
-						<div class="button extra_button"><a href="#">get your tickets</a></div>
-					</div>
-				</div>
-
-				<!-- Tours Content -->
-				<div class="col-lg-8 order-lg-2 order-1">
-					<div class="tours_content">
-						<div class="section_title"><h1>Tour Dates</h1></div>
-						<div class="tours_list_container">
-							<ul class="tours_list">
-
-								<!-- Tour -->
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div class="tour_info">
-										<div class="tour_date">Sun, 21 Oct 2018</div>
-										<div class="tour_name"><a href="#">The O2</a></div>
-										<div class="tour_location">London, United Kingdom</div>
-									</div>
-									<div class="button tour_button ml-auto"><a href="#">get your tickets</a></div>
-								</li>
-
-								<!-- Tour -->
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div class="tour_info">
-										<div class="tour_date">Mon, 22 Oct 2018</div>
-										<div class="tour_name"><a href="#">The O2</a></div>
-										<div class="tour_location">London, United Kingdom</div>
-									</div>
-									<div class="button tour_button ml-auto"><a href="#">get your tickets</a></div>
-								</li>
-
-								<!-- Tour -->
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div class="tour_info">
-										<div class="tour_date">Tue, 23 Oct 2018</div>
-										<div class="tour_name"><a href="#">The O2</a></div>
-										<div class="tour_location">London, United Kingdom</div>
-									</div>
-									<div class="button tour_button ml-auto"><a href="#">get your tickets</a></div>
-								</li>
-
-								<!-- Tour -->
-								<li class="d-flex flex-row align-items-start justify-content-start">
-									<div class="tour_info">
-										<div class="tour_date">Wed, 24 Oct 2018</div>
-										<div class="tour_name"><a href="#">The O2</a></div>
-										<div class="tour_location">London, United Kingdom</div>
-									</div>
-									<div class="button tour_button ml-auto"><a href="#">get your tickets</a></div>
-								</li>
-
-							</ul>
-						</div>
-						<div class="tours_link"><a href="#">See All Tour Dates</a></div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
 
 	<!-- App -->
 
@@ -422,7 +346,7 @@
 
 	<!-- Featured -->
 
-	<div class="featured">
+	<div class="featured" >
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -462,12 +386,12 @@
 				<!-- News Post -->
 				<div class="col-xl-4 col-md-6">
 					<div class="news_post image_top">
-						<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
+						<div class="news_post_image"><img src="{{ $images[0] }}" alt=""></div>
 						<div class="news_post_content">
-							<div class="news_post_date"><a href="#">Oct 19, 2018</a></div>
-							<div class="news_post_title"><a href="#">Music Seminary at Festival</a></div>
+							<div class="news_post_date"><p>{{ $dates[0] }}</p></div>
+							<div class="news_post_title"><a href="https://www.billboard.com{{ $urls[0] }}">{{ $titles[0] }}</a></div>
 							<div class="news_post_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+								<p>{{ $descriptions[0] }}</p>
 							</div>
 						</div>
 					</div>
@@ -477,25 +401,25 @@
 				<div class="col-xl-4 col-md-6">
 					<div class="news_post image_bottom d-flex flex-column align-items-start justify-content-start">
 						<div class="news_post_content order-md-1 order-2">
-							<div class="news_post_date"><a href="#">Oct 19, 2018</a></div>
-							<div class="news_post_title"><a href="#">Festival list for 2019</a></div>
+							<div class="news_post_date"><p>{{ $dates[1] }}</p></div>
+							<div class="news_post_title"><a href="https://www.billboard.com{{ $urls[1] }}">{{ $titles[1] }}</a></div>
 							<div class="news_post_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+								<p>{{ $descriptions[1] }}</p>
 							</div>
 						</div>
-						<div class="news_post_image order-md-2 order-1"><img src="images/news_2.jpg" alt=""></div>
+						<div class="news_post_image order-md-2 order-1"><img src="{{ $images[1] }}" alt=""></div>
 					</div>
 				</div>
 
 				<!-- News Post -->
 				<div class="col-xl-4 col-md-6">
 					<div class="news_post image_top">
-						<div class="news_post_image"><img src="images/news_3.jpg" alt=""></div>
+						<div class="news_post_image"><img src="{{ $images[2] }}" alt=""></div>
 						<div class="news_post_content">
-							<div class="news_post_date"><a href="#">Oct 19, 2018</a></div>
-							<div class="news_post_title"><a href="#">New album release in 2019</a></div>
+							<div class="news_post_date"><p>{{ $dates[2] }}</p></div>
+							<div class="news_post_title"><a href="https://www.billboard.com{{ $urls[2] }}">{{ $titles[2] }}</a></div>
 							<div class="news_post_text">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+								<p>{{ $descriptions[2] }}</p>
 							</div>
 						</div>
 					</div>
@@ -524,10 +448,11 @@
 				<!-- Newsletter Form -->
 				<div class="col-xl-6 nl_col">
 					<div class="newsletter_form_container d-flex flex-column align-items-start justify-content-end">
-						<form action="#" class="newsletter_form" id="newsletter_form">
+						<form action="{{ route('subscribe') }}" class="newsletter_form" id="newsletter_form" method="post">
+						    @csrf <!-- {{ csrf_field() }} -->
 							<div class="d-flex flex-row align-items-start justify-content-between">
-								<input type="email" class="newsletter_input" placeholder="Your E-mail" required="required">
-								<button class="button newsletter_button"><span>subscribe</span></button>
+								<input type="email" class="newsletter_input" placeholder="Your E-mail" name="email" required="required">
+								<button class="button newsletter_button" type="submit" value="Submit"><span>subscribe</span></button>
 							</div>
 						</form>
 					</div>
@@ -574,7 +499,7 @@
 				<div class="row">
 					<div class="col">
 						<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> | Developed by Aureliu Mocanu
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 					</div>
 				</div>

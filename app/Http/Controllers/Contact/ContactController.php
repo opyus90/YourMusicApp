@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Contact;
 //require_once 'vendor/autoload.php';
 
-
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
@@ -24,7 +23,7 @@ class ContactController extends Controller
 		// Create the Transport
         $transport = (new Swift_SmtpTransport('ssl://smtp.gmail.com', 465))
                    ->setUsername('yourmusic.service@gmail.com')
-                   ->setPassword('nb-128md')
+                   ->setPassword('')
         ;
 
         // Create the Mailer using your created Transport

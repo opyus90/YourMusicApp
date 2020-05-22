@@ -47,14 +47,20 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
     el: '#app',
 });*/
 
+//var album = JSON.parse( $(".featured").attr("data-album") );
 
+/*function getAlbums(){
+	var songs = album[0]["songs"].split(", ");
+	$(".featured_list .jp_container_2 .featured_image").replaceWith('<div class="featured_image"><img src="images/albums/'+album[0]["name"]+'.jpg" alt=""></div>');
+	//$(".artist_info_list").replaceWith('<div class="artist_info_list"><ul><li>Release: <span>'+album[0]["release"]+'</span></li></ul></div>');
+}*/
 
 
 
 $(document).ready(function() {
 	
-	console.log("hellos");
-	
+	console.log("hello");
+	//getAlbums();
 	
 	
 	
