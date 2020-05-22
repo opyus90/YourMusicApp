@@ -82,7 +82,7 @@ class RegisterController extends Controller
 		// Create the Transport
         $transport = (new Swift_SmtpTransport('ssl://smtp.gmail.com', 465))
                    ->setUsername('yourmusic.service@gmail.com')
-                   ->setPassword('nb-128md')
+                   ->setPassword('')
         ;
 
         // Create the Mailer using your created Transport
